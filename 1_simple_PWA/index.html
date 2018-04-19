@@ -1,0 +1,232 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- <script src="https://unpkg.com/vue"></script> -->
+
+    <meta property="og:image" content="img/logo.png" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0 maximum-scale=5.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- duplicate of theme color in webmanifest -->
+    <meta name="theme-color" content="#2196f3">
+
+    <link rel="manifest" type="application/manifest+json" href="pwabuilder_unzip/manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <script src="pwabuilder_unzip/pwabuilder-sw-register.js"></script>
+</head>
+
+<body id="body">
+    <div id="app">
+        <header class="full-with">
+            <div class="center-container">
+                <div class="header-logo">
+                    <a href="javascript:;">Logo</a>
+                </div>
+                <div id="small-menu" class="header-menu-button">
+                    <div @click="toggleClick()" id="nav-icon3" :class="{ open: toggleMenu }">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div id="menu" class="header-menu" :class="{ open: toggleMenu }">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">How it Works</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">Maximise ROI </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">Triggers & Actions</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="full-with main-container">
+            <div class="center-container">
+                <div class="full-with top-container">
+                    <h1>Blog</h1>
+                    <div class="top-container-search">
+                        <form action="">
+                            <input class="input-search" type="text" placeholder="Type search form ...">
+                            <input type="submit" class="search-submit" value="">
+                        </form>
+                    </div>
+                </div>
+                <div class="full-with center-container-block">
+                    <div class="block-container">
+                        <div class="block-container-value">
+                            <h2>Lorem ipsum dolor sit amet cosectetur</h2>
+                            <small>Toni Mitrevski – 1 Dec 2016</small>
+                            <div class="article-top">
+                                <div class="article-top-image">
+                                    <img src="images/neymar.jpg" alt="">
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur.
+                                </p>
+                            </div>
+                            <div class="block-button-section">
+                                <a href="/article.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-container">
+                        <div class="block-container-value">
+                            <h2>Lorem ipsum dolor sit amet cosectetur</h2>
+                            <small>Toni Mitrevski – 1 Dec 2016</small>
+                            <div class="article-top">
+                                <div class="article-top-image">
+                                    <img src="images/neymar.jpg" alt="">
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur.
+                                </p>
+                            </div>
+                            <div class="block-button-section">
+                                <a href="/article.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-container">
+                        <div class="block-container-value">
+                            <h2>Lorem ipsum dolor sit amet cosectetur</h2>
+                            <small>Toni Mitrevski – 1 Dec 2016</small>
+                            <div class="article-top">
+                                <div class="article-top-image">
+                                    <img src="images/neymar.jpg" alt="">
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur.
+                                </p>
+                            </div>
+                            <div class="block-button-section">
+                                <a href="/article.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-container">
+                        <div class="block-container-value">
+                            <h2>Lorem ipsum dolor sit amet cosectetur</h2>
+                            <small>Toni Mitrevski – 1 Dec 2016</small>
+                            <div class="article-top">
+                                <div class="article-top-image">
+                                    <img src="images/neymar.jpg" alt="">
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur.
+                                </p>
+                            </div>
+                            <div class="block-button-section">
+                                <a href="/article.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-container">
+                        <div class="block-container-value">
+                            <h2>Lorem ipsum dolor sit amet cosectetur</h2>
+                            <small>Toni Mitrevski – 1 Dec 2016</small>
+                            <div class="article-top">
+                                <div class="article-top-image">
+                                    <img src="images/neymar.jpg" alt="">
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur.
+                                </p>
+                            </div>
+                            <div class="block-button-section">
+                                <a href="/article.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-container">
+                        <div class="block-container-value">
+                            <h2>Lorem ipsum dolor sit amet cosectetur</h2>
+                            <small>Toni Mitrevski – 1 Dec 2016</small>
+                            <div class="article-top">
+                                <div class="article-top-image">
+                                    <img src="images/neymar.jpg" alt="">
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur.
+                                </p>
+                            </div>
+                            <div class="block-button-section">
+                                <a href="/article.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="full-with pagination">
+                    <span class="active">1</span>
+                    <span>2</span>
+                    <span>3</span>
+                </div>
+            </div>
+        </div>
+        <footer class="full-with">
+            <div class="center-container">
+                <div class="footer-box">
+                    <span>Mainsale</span>
+                    <a href="javascript:;">How it works</a>
+                    <a href="javascript:;">Pricing</a>
+                    <a href="javascript:;">Integration</a>
+                    <a href="javascript:;">Support</a>
+                </div>
+                <div class="footer-box">
+                    <span>Mainsale</span>
+                    <a href="javascript:;">About Us</a>
+                    <a href="javascript:;">Contact Us</a>
+                    <a href="javascript:;">Blog</a>
+                </div>
+                <div class="footer-box">
+                    <span>Social Media</span>
+                    <a href="javascript:;" class="social-media facebook"></a>
+                    <a href="javascript:;" class="social-media twitter"></a>
+                    <a href="javascript:;" class="social-media google"></a>
+                    <a href="javascript:;" class="social-media linkedin"></a>
+                </div>
+                <div class="full-with bottom-footer">
+                    <span class="copyright">Copyright 2016</span>
+                    <a href="#body" class="back-to-top">Back to top?</a>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

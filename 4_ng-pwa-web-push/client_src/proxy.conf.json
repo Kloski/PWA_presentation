@@ -1,0 +1,7 @@
+{
+    "/push-notifications-api": {
+      "target": "http://localhost:53516/",
+      "secure": false
+    }
+  }
+  

@@ -1,0 +1,2 @@
+solution:       https://github.com/dotnet/corefx/issues/26966
+downgrading:    sudo pacman -U https://archive.archlinux.org/packages/n/ncurses/ncurses-6.0-4-x86_64.pkg.tar.xz          

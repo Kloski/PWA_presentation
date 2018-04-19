@@ -1,0 +1,58 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/kloski/Projects/PWA_sandbox/Demo.AspNetCore.PushNotifications/Demo.AspNetCore.PushNotifications/Demo.AspNetCore.PushNotifications.csproj",
+    "projectName": "Demo.AspNetCore.PushNotifications",
+    "projectPath": "/home/kloski/Projects/PWA_sandbox/Demo.AspNetCore.PushNotifications/Demo.AspNetCore.PushNotifications/Demo.AspNetCore.PushNotifications.csproj",
+    "outputPath": "/home/kloski/Projects/PWA_sandbox/Demo.AspNetCore.PushNotifications/Demo.AspNetCore.PushNotifications/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/opt/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/home/kloski/Projects/PWA_sandbox/Demo.AspNetCore.PushNotifications/Demo.AspNetCore.PushNotifications.Services.Abstractions/Demo.AspNetCore.PushNotifications.Services.Abstractions.csproj": {
+            "projectPath": "/home/kloski/Projects/PWA_sandbox/Demo.AspNetCore.PushNotifications/Demo.AspNetCore.PushNotifications.Services.Abstractions/Demo.AspNetCore.PushNotifications.Services.Abstractions.csproj"
+          },
+          "/home/kloski/Projects/PWA_sandbox/Demo.AspNetCore.PushNotifications/Demo.AspNetCore.PushNotifications.Services/Demo.AspNetCore.PushNotifications.Services.csproj": {
+            "projectPath": "/home/kloski/Projects/PWA_sandbox/Demo.AspNetCore.PushNotifications/Demo.AspNetCore.PushNotifications.Services/Demo.AspNetCore.PushNotifications.Services.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Lib.Net.Http.WebPush": {
+          "target": "Package",
+          "version": "[1.2.0, )"
+        },
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "[2.0.5, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

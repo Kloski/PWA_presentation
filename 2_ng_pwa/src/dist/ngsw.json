@@ -1,0 +1,53 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/index.html",
+        "/inline.31e1fb380eb7cf3d75b1.bundle.js",
+        "/main.64752d3b7dbbf2364d58.bundle.js",
+        "/polyfills.23490afe3349284ca349.bundle.js",
+        "/styles.ac89bfdd6de82636b768.bundle.css",
+        "/vendor.1f358257453dda2a1411.bundle.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/inline.31e1fb380eb7cf3d75b1.bundle.js": "09dd3d40abfe3872e66fae24485a609b72dc3cf8",
+    "/assets/icons/icon-128x128.png": "28fcb9af31c2116cb9222dfdfe212ae445015419",
+    "/main.64752d3b7dbbf2364d58.bundle.js": "a5b2503ad7890a2283378654bdadf8d782e64f7a",
+    "/assets/icons/icon-144x144.png": "23df62bbd31161d0649c9c743fca9611b32d7a0b",
+    "/polyfills.23490afe3349284ca349.bundle.js": "d0684b19443e2b069a76cad6b29a7f3c27a09fcc",
+    "/assets/icons/icon-152x152.png": "c323108c2d4577cb6af294245665501a27ec4b9c",
+    "/styles.ac89bfdd6de82636b768.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/assets/icons/icon-192x192.png": "d835eb28ba6b3df2b9f957033dc60c0e940cf774",
+    "/vendor.1f358257453dda2a1411.bundle.js": "c39f158e1b66912539faa80bf60d96ef6cb5bfb6",
+    "/assets/icons/icon-384x384.png": "280bcf22b690cd736affe268f0b79498b54d11a4",
+    "/index.html": "78efac1198618ef7e132110f62b54e1d37445af0",
+    "/assets/icons/icon-512x512.png": "7269bb2ce01863ff13def45aa90c71446b5ce3c9",
+    "/assets/icons/icon-72x72.png": "137dfa15fab4a38f947135e0bce6da484bb8be86",
+    "/assets/icons/icon-96x96.png": "3585cc1afb84c9e662114cb779df899ae69b9053"
+  }
+}

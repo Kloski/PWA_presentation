@@ -1,0 +1,38 @@
+{
+  "name": "ng-pwa",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --proxy-config proxy.conf.json",
+    "gen-ngsw": "ngsw-config dist ./src/ngsw-config.json",
+    "build-dev": "ng build && npm run gen-ngsw",
+    "build-prod2": "ng build --prod",
+    "lint": "ng lint",
+    "copy-manifest": "cp ./src/manifest.json ./dist/manifest.json",
+    "build-prod": "ng build --prod -build-optimizer=true --vendor-chunk=true",
+    "build-prod-manifest": "ng build --prod -build-optimizer=true --vendor-chunk=true && npm run copy-manifest"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^5.2.0",
+    "@angular/common": "^5.2.0",
+    "@angular/compiler": "^5.2.0",
+    "@angular/core": "^5.2.0",
+    "@angular/forms": "^5.2.0",
+    "@angular/http": "^5.2.0",
+    "@angular/platform-browser": "^5.2.0",
+    "@angular/platform-browser-dynamic": "^5.2.0",
+    "@angular/router": "^5.2.0",
+    "@angular/service-worker": "^5.2.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.5.6",
+    "zone.js": "^0.8.19"
+  },
+  "devDependencies": {
+    "@angular/cli": "~1.7.1",
+    "@angular/compiler-cli": "^5.2.0",
+    "@angular/language-service": "^5.2.0",
+    "typescript": "~2.5.3"
+  }
+}
