@@ -1,1 +1,1 @@
-PWA_sandbox_github
+Do not forget to change VAPID keys!!!
